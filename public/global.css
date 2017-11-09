@@ -1,9 +1,10 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  color: #323648
 }
 .max-width {
-  max-width: 1342px;
-  padding: 0 56px;
+  max-width: 1250px;
+  padding: 0 50px;
   margin: 0 auto;
 }
 nav {
@@ -54,4 +55,34 @@ nav {
   color: #323648;
   margin-top: 24px;
   font-size: 36px;
+}
+.status-text-sub {
+  margin-top: 16px;
+  color: #5A5B68;
+  font-size: 18px;
+}
+.table-header {
+  border-style: solid;
+  border-color: #E8E8E8;
+  border-width: 1px 1px 0 1px;
+  padding: 12px;
+  box-sizing: border-box;
+  background: #F5F5F5;
+  font-weight: bold;
+}
+.services {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-color: #E8E8E8;
+  border-width: 1px 0 0 1px;
+}
+.service {
+  width: 50%;
+  padding: 12px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: #E8E8E8;
+  border-width: 0 1px 1px 0;
 }
