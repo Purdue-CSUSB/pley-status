@@ -40,9 +40,9 @@ nav {
   width: 130px;
   height: 130px;
   border-radius: 50%;
-  background: #41C39F;
+  background: #F5F5F5;
   margin: auto;
-  box-shadow: 0 0 20px RGBA(65, 195, 159, .5);
+  box-shadow: 0 0 20px RGBA(200, 200, 200, .5);
   color: #fff;
   font-size: 60px;
   display: flex;

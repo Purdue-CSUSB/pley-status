@@ -1,5 +1,9 @@
+const all = function(req, res) {
+  res.json({success: true, isUp: true, message: 'Ceph is experiencing issues'});
+};
+
 const ceph = function(req, res) {
-  res.json({success: true, isUp: true});
+  res.json({success: true, isUp: false, message: 'Kubernetes pod is down'});
 };
 
 const rgw = function(req, res) {
@@ -15,6 +19,7 @@ const draft = function(req, res) {
 };
 
 var functions = {
+    all: all,
     ceph: ceph,
     rgw: rgw,
     registry: registry,

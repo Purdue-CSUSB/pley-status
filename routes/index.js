@@ -2,6 +2,8 @@ var router      = require('express').Router();
 
 /* Services */
 const services = require('./services');
+// All
+router.get('/services/all', services.all);
 // Rook/Ceph
 router.get('/services/ceph', services.ceph);
 // ceph rgw (s3 api)
