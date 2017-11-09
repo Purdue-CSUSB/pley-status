@@ -3,7 +3,7 @@ const all = function(req, res) {
 };
 
 const ceph = function(req, res) {
-  res.json({success: true, isUp: false, message: 'Kubernetes pod is down'});
+  res.json({success: true, isUp: true, message: 'Kubernetes pod is down'});
 };
 
 const rgw = function(req, res) {
